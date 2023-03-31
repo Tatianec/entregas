@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ana Carolina</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(243, 241, 241);
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(243, 241, 241);
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: lightslategray;
+        }
+
+        .active {
+            background-color: darkgrey;
+        }
+
+        a {
+            color: black;
+        }
+        h1{
+            text-align: center;
+            padding: 30px;
+        }
+        p {
+            padding-top: 10px;
+            display: inline;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+
+        audio {
+            display: inline;
+            padding: 0;
+        }
+
+        table {
+            width: 100%;
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a class="active" href="musicas.html">Musicas</a></li>
+        <li><a href="shop.html">Shop</a></li>
+    </ul>
+    <h1>Músicas - Ana Carolina </h1>
+    <table>
+        <tr>
+            <td>
+                <h2>Encostar Na Tua</h2>
+            </td>
+            <td>
+                <audio autoplay controls muted>
+                    <source src="audio/EncostarNaTua.mp3" type="audio/mp3">
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>Garganta</h2>
+            </td>
+            <td>
+                <audio autoplay controls muted>
+                    <source src="audio/Garganta.mp3" type="audio/mp3">
+                </audio>
+            </td>
+        <tr>
+            <td>
+                <h2>Quem de Nós Dois</h2>
+            </td>
+            <td>
+                <audio autoplay controls muted>
+                    <source src="audio/QuemDeNósDois.mp3" type="audio/mp3">
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>Uma Louca Tempestade</h2>
+            </td>
+            <td>
+                <audio autoplay controls muted>
+                    <source src="audio/UmaLoucaTempestade.mp3" type="audio/mp3">
+                </audio>
+            </td>
+        </tr>
+    </table>
+    <h1>Vídeos</h1>
+    <table>
+        <tr>
+            <td>
+                <h2>Aqui/Quem de Nós Dois</h2>
+            </td>
+            <td>
+                <video width="360" height="260" controls="controls" autoplay="autoplay">
+                    <source src="videos/ana-carolina-aqui-quem-de-ns-dois_206907.mp4" type="video/mp4">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>Cabide</h2>
+            </td>
+            <td>
+                <video width="360" height="260" controls="controls" autoplay="autoplay">
+                    <source src="videos/ana-carolina-cabide_515602.mp4" type="video/mp4">
+            </td>
+        <tr>
+            <td>
+                <h2>Carvão</h2>
+            </td>
+            <td>
+                <video width="360" height="260" controls="controls" autoplay="autoplay">
+                    <source src="videos/ana-carolina-carvo_135362.mp4" type="video/mp4">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
